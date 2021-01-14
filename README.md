@@ -5,9 +5,13 @@ Home: https://pypi.org/project/python-stdnum/
 
 Package license: LGPL-2.1-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-stdnum-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python module to parse, validate and reformat standard numbers and codes in different formats.
+
+Development: https://arthurdejong.org/python-stdnum/
+
+Documentation: https://arthurdejong.org/python-stdnum/
 
 A Python module to parse, validate and reformat standard numbers and codes in different formats. It contains a large collection of number formats.
 Basically any number or code that has some validation mechanism available or some common formatting is eligible for inclusion in this library.
