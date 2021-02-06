@@ -1,5 +1,5 @@
 {% set name = "python-stdnum" %}
-{% set version = "1.15" %}
+{% set version = "1.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff0e4d2b8731711cf2a73d22964139208088b4bd1a3e3b0c4f78d6e823dd8923
+  sha256: 4248d898042a801fc4eff96fbfe4bf63a43324854efe3b5534718c1c195c6f43
 
 build:
   noarch: python
