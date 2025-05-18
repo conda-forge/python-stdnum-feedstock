@@ -1,13 +1,13 @@
 {% set name = "python-stdnum" %}
-{% set version = "1.19" %}
+{% set version = "2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 133ec82f56390ea74c190569e98f2fb14b869808b1d54785708f22d0fead8b3f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 6b01645969eb3dfd55061a0114d593753cd9e653cea9083198b7eea12644397a
 
 build:
   noarch: python
